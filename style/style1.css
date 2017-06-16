@@ -1,0 +1,159 @@
+body{
+    background:white;
+}
+
+h3{
+ border-bottom:1px solid #ccc; 
+ padding-left:20px;
+}
+hgroup{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h1{
+    border:2px solid 5px;
+}
+
+h3::before{content:"";
+   display:inline-block;
+   background:red;
+   width:20px;
+   height:20px;
+   border-radius:22px;
+   margin:5px;
+}
+
+header{
+    height:150px;
+    color:red;
+}
+h3{
+ list-style-type:circle;
+ list-style-position:outside;
+}
+header hgroup{
+    float:left;
+}
+
+header figure{
+    float:middle;
+    
+}
+.content {
+      background-color:white;
+}
+h3{
+    margin:10px;
+}
+.skill {background-color:grey;
+        margin-top: 2px;
+        margin-right:50%;
+
+}
+
+[data-skill="5"] span
+{display:block;
+width:50%;
+background-color:red;
+}
+
+[data-skill="3"] span
+{display:block;
+width:30%;
+background-color:red;
+}
+
+
+[data-skill="1"] span
+{display:block;
+width:10%;
+background-color:red;
+}
+
+[data-skill="9"] span
+{display:block;
+width:90%;
+background-color:red;
+}
+
+[data-skill="7"] span
+{display:block;
+width:70%;
+background-color:red;
+}
+h4{color:red;}
+
+header{background-color:grey;
+
+}
+section{float:left;
+        width:50%;
+}
+p{margin-right:30px;
+ 
+}
+body{
+    margin-right:100px;
+    margin-left:100px;
+    }
+      
+  header {
+
+   background-position:top-right;}
+
+
+.experience-details{color:grey;
+ }
+
+.experience-date-separator{color:red;}
+
+#contacts {transform-origin:top right;
+}
+section#contact{background-color:red;
+                width:20%;
+}
+
+div.contact{color:red;}
+.contact {float:top;}
+.contact{margin-top:50px;
+         top:10px;
+        
+         position:fixed;
+}
+
+  section>h3 {
+    position: static;
+    border-bottom: 1px solid black;
+    border-right: 0px;
+    width: 140px;
+    margin: 0;
+    padding: 0;
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+  a[href='mailto:jad@codi.tech'] {
+    background: url('images/email.png') no-repeat 6px center;
+    background-size: 40px 40px;
+    display: block;
+  }
+
+  a[href='tel:+96170261482'] {
+    background: url('images/phone.png') no-repeat 6px center;
+    background-size: 40px 40px;
+    display: block;
+  }
+
+  a[href='https://github.com/Xananax/'] {
+    background: url('images/github.png') no-repeat 6px center;
+    background-size: 40px 40px;
+    display: block;
+  }
+
+  a[href='//www.facebook.com/sad.jarout'] {
+    background: url('images/facebook.png') no-repeat 6px center;
+        background-size: 40px 40px;
+    display: block;
+  }
+  a{
+    width: 40px;
+    height: 40px;
+  }
